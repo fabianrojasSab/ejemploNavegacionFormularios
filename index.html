@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>practica 6</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/pagina_nueva_4.css">
+
+</head>
+<body>
+	<div class="container">
+		<div class="row" id="cabeza">
+			<div class="col-4" id= "logo"></div>
+
+			<div class="col-8" id="titulo">EL POLLITO PIO</div>
+		</div>
+		<div class="row" id="cuerpo">
+			<div class="col-6 lateral">
+				<div class="col-12" id="sub">
+				</div>
+
+				<div class="col-12" id="inf"></div>
+			</div>
+			<div class="col-6 lateral" id="der">
+				
+							
+			</div>
+		</div>
+		<div class="row" id="pie">
+			<button type="button" class="btn btn-secondary" id="btnPrimero"><</button>
+			<button type="button" class="btn btn-secondary" id="btnAtras">*</button>
+			<button type="button" class="btn btn-secondary" id="btnAdelante">></button>
+			<button type="button" class="btn btn-secondary" id="btnUltimo">></button>
+		</div>
+	</div>
+
+	<template id="plantilla1">
+			<form id="formulario1">
+			  <div class="form-group">
+			    <label for="email">correo:</label>
+			    <input type="email" class="form-control" id="email">
+			  </div>
+			  <div class="form-group">
+			    <label for="pwd">contraseña:</label>
+			    <input type="password" class="form-control" id="pwd">
+			  </div>
+			  <div class="checkbox">
+			    <label><input type="checkbox"> recordar</label>
+			  </div>
+			  <button type="submit">ingresar</button>
+		</form>	
+	</template>
+
+	<template id="plantilla2">
+		<form>
+			<div class="form-group"> <!-- Full Name -->
+				<label for="full_name_id" class="control-label">nombre proveedor</label>
+				<input type="text" class="form-control" id="full_name_id" name="full_name" placeholder="John Deer">
+				</div>    
+				<div class="form-group"> <!-- Full Name -->
+				<label for="full_name_id" class="control-label">direccion</label>
+				<input type="text" class="form-control" id="full_name_id" name="full_name" placeholder="John Deer">
+				</div>  
+				<div class="form-group"> <!-- Zip Code-->
+		        <label for="zip_id" class="control-label">producto</label>
+		        <input type="text" class="form-control" id="zip_id" name="zip" placeholder="#####">
+	    		</div>    
+	    		<div class="form-group"> <!-- Zip Code-->
+		        <label for="zip_id" class="control-label">codigo</label>
+		        <input type="text" class="form-control" id="zip_id" name="zip" placeholder="#####">
+	    		</div>     
+	    
+			    <div class="form-group"> <!-- Submit Button -->
+		        <button type="submit" class="btn btn-primary">comprar</button>
+			    </div>   
+			</div>
+		</form>	
+	</template>
+
+	<template id="plantilla3">
+		<form>
+			<div class="form-group"> <!-- Full Name -->
+				<label for="full_name_id" class="control-label">nombre cliente</label>
+				<input type="text" class="form-control" id="full_name_id" name="full_name" placeholder="John Deer">
+			</div>    
+			<div class="form-group"> <!-- Full Name -->
+				<label for="full_name_id" class="control-label">documento</label>
+				<input type="text" class="form-control" id="full_name_id" name="full_name" placeholder="John Deer">
+			</div>  
+			<div class="form-group"> <!-- Full Name -->
+				<label for="full_name_id" class="control-label">direccion</label>
+				<input type="text" class="form-control" id="full_name_id" name="full_name" placeholder="John Deer">
+			</div>  
+			<div class="form-group"> <!-- Full Name -->
+				<label for="full_name_id" class="control-label">telefono</label>
+				<input type="text" class="form-control" id="full_name_id" name="full_name" placeholder="John Deer">
+			</div>  
+			<div class="form-group"> <!-- State Button -->
+	        <label for="state_id" class="control-label">State</label>
+	        <select class="form-control" id="state_id">
+	            <option value="BG">bogota</option>
+	            <option value="CL">cali</option>
+	            <option value="ML">medellin</option>
+	            <option value="BQ">barranquilla</option>
+	            <option value="CA">Cartagena</option>
+	            <option value="IB">ibague</option>
+	            <option value="AR">armenia</option>
+	            <option value="PO">popayan</option>
+	        </select>                    
+		    </div>       
+		    <div class="form-group"> <!-- Submit Button -->
+		        <button type="submit" class="btn btn-primary">guardar</button>
+			 </div>   
+										   
+	  	</form>	
+	</template>
+
+	<template id="plantilla4">
+		<form>
+			<div class="form-group"> <!-- Full Name -->
+				<label for="full_name_id" class="control-label">Full Name</label>
+				<input type="text" class="form-control" id="full_name_id" name="full_name" placeholder="John Deer">
+				</div>    
+				<div class="form-group"> <!-- Full Name -->
+				<label for="full_name_id" class="control-label">Full Name</label>
+				<input type="text" class="form-control" id="full_name_id" name="full_name" placeholder="John Deer">
+				</div>  
+				<div class="form-group"> <!-- Zip Code-->
+		        <label for="zip_id" class="control-label">Zip Code</label>
+		        <input type="text" class="form-control" id="zip_id" name="zip" placeholder="#####">
+	    		</div>        
+	    
+			    <div class="form-group"> <!-- Submit Button -->
+		        <button type="submit" class="btn btn-primary">Buy!</button>
+			    </div>   
+			</div>
+		</form>	
+	</template>
+
+</body>
+<script src="js/pagina_nueva_4.js"></script>
+</html>

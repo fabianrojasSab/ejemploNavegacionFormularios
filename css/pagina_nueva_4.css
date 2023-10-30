@@ -1,0 +1,71 @@
+:root{
+	--color1: #f0f0f0;
+	--color2: #EFE4B7;
+	--color3: #B8CC98;
+	--color4: #B8CC98;
+	--color5: #496E86;
+	--color6: #799EB6;
+}
+
+.container{
+	height: 100vh;
+	background-color: var(--color1);
+	max-width: 572px;
+}
+
+#cabeza{
+	height: 20vh;
+	background-color: var(--color2);
+
+}
+ #logo{
+ 	background-image: url("../img/pollito.png");
+ 	background-size: cover;
+ }
+
+ #titulo{
+ 	color: var(--color4);
+ 	font-size: 300%;
+ 	margin: auto;
+
+ }
+
+#cuerpo{
+	height: 70vh;
+	background-color: var(--color3);
+}
+
+#sub, #inf{
+	height: 35vh;
+	overflow: auto;
+}
+
+#sub{
+	background-color: var(--color5);
+}
+
+#inf{
+	background-color: var(--color6);
+}
+
+#pie{
+	height: 10vh;
+	background-color: var(--color2);
+	padding: 15px 40px;
+	justify-content: center;
+}
+
+.btn{
+	margin: 0 20px;
+	width: 15%;
+}
+
+.lateral{
+	padding: 0;
+	overflow: auto;
+}
+
+
+.for{
+	width: 20%;
+}
